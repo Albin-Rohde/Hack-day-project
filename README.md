@@ -21,4 +21,4 @@ at the moment. Use:
 #### Username: john_doe_photographer
 #### Password: albin123
 
-To use the app!
+When prompt for instagram login.
