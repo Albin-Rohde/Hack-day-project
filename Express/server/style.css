@@ -1,0 +1,34 @@
+.main-container{
+    grid-template-columns: 10% 80% 10%; 
+}
+
+.img-container{
+    grid-column: 2;
+    display: flexbox;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.insta-img-item{
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+    margin: 2%;
+    object-fit: cover;
+}
+
+.hr{
+    margin: 1% 2% 10% 2%;
+}
+
+.name{
+    font-size: 2em;
+    margin: 2%;
+    width: 40vw;
+}
+
+.btn--done{
+    color: black;
+    margin: 2%;
+}

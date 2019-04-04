@@ -1,0 +1,35 @@
+.home-content{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    padding-top: 30vh;
+    height: 70vh;
+    background-color: rgb(39, 39, 39);
+}
+
+.home-heading{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 2em;
+    color: white;
+}
+
+.home-text{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.5em;
+    color: white;
+}
+
+.home-login{
+    margin-top: 12vh;
+    background-color: rgb(39, 39, 39);
+    padding: 0.5% 1%;
+    border: 1px solid white;
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.3em;
+    transition: background-color 1s;
+}
+
+.home-login:hover{
+    background-color: rgb(92, 92, 92);
+}

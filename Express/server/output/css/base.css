@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.dark{
+    background-color: rgb(39, 39, 39);
+    height: 100%;
+}
+
+.ligth{
+    background-color: rgb(233, 233, 233);
+    height: 100%;
+}

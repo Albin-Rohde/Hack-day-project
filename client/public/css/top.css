@@ -1,0 +1,21 @@
+.top-nav--dark{
+    height: 10vh;
+    background-color: rgb(39, 39, 39);
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    transition: background-color 1s;
+}
+
+.top-nav--light{
+    height: 10vh;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    transition: background-color 1s;
+}
+
+hr{
+    clear: both;
+    visibility: hidden;
+    display:none;
+}

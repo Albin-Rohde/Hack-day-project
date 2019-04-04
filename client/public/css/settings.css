@@ -1,0 +1,110 @@
+.settings{
+    display: flex;
+}
+
+.settings > div {
+    margin-left: 2vw;
+}
+
+.settings--text--light{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-top: 0.6vh;
+}
+
+.settings--text--dark{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-top: 0.6vh;
+}
+
+.settings--link--dark{
+    display: block;
+    text-decoration: none;
+    margin-top: 1vh;
+    border: 1px solid white;
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.2em;
+    width: 10vw;
+    margin-left: 1vw;
+    padding: 3.5% 3%;
+    transition: background-color 1s; 
+}
+
+.settings--link--dark:hover{
+    background-color: rgb(92, 92, 92);
+}
+
+.settings--link--light{
+    display: block;
+    text-decoration: none;
+    margin-top: 1vh;
+    border: 1px solid black;
+    color: black;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.2em;
+    width: 10vw;
+    margin-left: 1vw;
+    padding: 3.5% 3%;
+    transition: background-color 1s; 
+}
+
+.settings--link--light:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+.settings--input--dark{
+    background-color: rgb(39,39,39);
+    padding: 3%;
+    color: white;
+    font-size: 0.9em;
+    transition: background-color 1s;
+}
+
+.settings--input--light{
+    background-color: rgb(255, 255, 255);
+    padding: 3%;
+    color: black;
+    font-size: 0.9em;
+    transition: background-color 1s;
+}
+
+.settings--btn--dark{
+    background-color: rgb(39,39,39);
+    margin-left: 1vw;
+    height: 6vh;
+    padding: 0 2%;
+    border: 1px solid white;
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.2em;
+    margin-top: 1vh;
+    transition: background-color 1s;
+}
+
+.settings--btn--dark:hover{
+    background-color: rgb(92, 92, 92);
+}
+
+.settings--btn--light{
+    background-color: rgb(255, 255, 255);
+    margin-left: 1vw;
+    height: 6vh;
+    padding: 0 2%;
+    border: 1px solid black;
+    color: black;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.2em;
+    margin-top: 1vh;
+    transition: background-color 1s;
+}
+
+.settings--btn--light:hover{
+    background-color: rgb(228, 228, 228);
+}
+

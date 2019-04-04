@@ -1,0 +1,32 @@
+{
+  "name": "portfolio_template",
+  "version": "1.0.0",
+  "description": "Generate your own portfolio in 5mins from your instagram account",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archive": "0.0.2",
+    "archiver": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "cookieparser": "^0.1.0",
+    "cors": "^2.8.5",
+    "eslint": "^5.15.1",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "fetch-instagram": "^1.0.0-alpha.3",
+    "fs": "0.0.1-security",
+    "jszip": "^3.2.0",
+    "node-fetch": "^2.3.0",
+    "util": "^0.11.1",
+    "uuid": "^3.3.2",
+    "zip": "^1.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.2"
+  }
+}
